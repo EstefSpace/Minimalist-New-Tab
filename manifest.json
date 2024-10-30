@@ -1,0 +1,13 @@
+{
+    "name": "Minimalist New Tab",
+    "description": "An extension that replaces the pre-finished new Chrome tab with a more minimalist and simple one",
+    "version": "1.0",
+    "incognito": "split",
+    "icons": {
+        "128": "popcat.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "new_tab.html"
+    },
+    "manifest_version": 3
+  }
