@@ -3,7 +3,16 @@ main {
     height: 80vh;
     display: flex;
     justify-content: center;
+    
 }
+
+body {
+    background-image: url(wp12950081.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 main div {
     padding: 15px;
