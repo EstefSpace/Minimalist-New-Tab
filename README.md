@@ -1,4 +1,4 @@
-# Minimalist New Tab
+# The best Minimalist New Tab for chrome
 
 This Chrome extension was made to replace the browser's default new tab, changing it for a simpler and more minimalist one.
 
