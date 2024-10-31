@@ -15,3 +15,7 @@ Now activate developer mode, this will allow you to install this extension.
 Click on "Load unpackaged extension", then you will open the folder of the extension that you already downloaded (after extracting it, of course).
 
 Now you have it installed!
+
+# New version released 2.0!
+
+This new version only set the current time and day.
