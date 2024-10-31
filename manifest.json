@@ -4,7 +4,7 @@
     "version": "2.0",
     "incognito": "split",
     "icons": {
-        "128": "popcat.png"
+        "128": "images/popcat.png"
     },
     "chrome_url_overrides": {
       "newtab": "new_tab.html"
