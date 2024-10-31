@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="ligth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +10,32 @@
   >
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="new_tab.css">
-    <link rel="shortcut icon" href="popcat.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/new_tab.css">
+    <link rel="shortcut icon" href="images/popcat.png" type="image/x-icon">
     <title>New Tab</title>
 </head>
 <body>
 
-    <header>
+    <header class="container">
         <nav>
             <ul>
-              <li><a href="#" class="contrast" data-placement="right" data-tooltip="Source"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="https://github.com/estefspace/Minimalist-New-Tab" target="_blank" rel="noopener noreferrer" class="contrast" data-placement="right" data-tooltip="Source"><i class="fa-brands fa-github"></i></a></li>
             </ul>
             <ul>
-              <li><a href="#" id="google" data-placement="bottom"  data-tooltip="Google" class="contrast"><i class="fa-brands fa-google"></i></a></li>
-              <li><a href="#" id="yahoo" data-placement="bottom" data-tooltip="Yahoo!" class="contrast"><i class="fa-brands fa-yahoo"></i></a></li>
-              <li><a href="#" class="contrast"><i class="fa-brands fa-google"></i></a></li>
+              <li><a href="#" id="google" data-placement="bottom"  data-tooltip="Google"><i class="fa-brands fa-google"></i></a></li>
+              <li><a href="#" id="yahoo" data-placement="bottom" data-tooltip="Yahoo!"><i class="fa-brands fa-yahoo"></i></a></li>
+              <li><a href="#" id="bing" data-placement="bottom" data-tooltip="Bing"><i class="fa-brands fa-edge"></i></a></li>
+              <li><a href="#" id="yandex" data-placement="bottom" data-tooltip="Yandex"><i class="fa-brands fa-yandex-international"></i></a></li>
             </ul>
           </nav>
     </header>
 
-    <main>
+    <main class="container">
         <div>
+            <div class="dateandclock-container">
+              <h1 id="clock"><span aria-busy="true"></span></h1>
+              <h3 id="date"><span></span></h3>
+            </div>
             <form role="search" action="https://google.com/search?q="  method="get">
                 <input id="search" 
                 name="q"
@@ -42,6 +47,6 @@
         </div>
     </main>
 
-    <script src="new_tab.js"></script>
+    <script src="javascript/new_tab.js"></script>
 </body>
 </html>
