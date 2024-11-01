@@ -1,3 +1,5 @@
+// FUNCTIONS MAIN
+
 function setPlaceholder() {
     const placeholders = ["What will you look for today?", "Simple cooking recipes", "github", "youtube", "pico css", "chrome web store", "japanese gastronomy"];
     const $placeholder = document.getElementById("search");
@@ -8,6 +10,8 @@ function setPlaceholder() {
 
 }
 
+
+// CLOCK-DATE
 function setClockAndDate() {
     const clockElement = document.getElementById("clock");
     const dateElement = document.getElementById("date");
@@ -27,6 +31,8 @@ function setClockAndDate() {
     dateElement.innerHTML = `<mark>${months[month]} ${days[day]}, ${year}</mark>`
 }
 
+
+// SEARCHS ENGINES
 function setYandex() {
     const form = document.querySelector("form");
     const inputSearch = document.getElementById("search");
@@ -118,6 +124,8 @@ switch(search) {
         setYandex()
     
 }
+
+//FUNCTIONS
 
 setPlaceholder()
 setInterval(() => {

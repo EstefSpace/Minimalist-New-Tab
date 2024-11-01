@@ -1,3 +1,5 @@
+/* INPUT SEARCH AND DATE-CLOCK */
+
 main {
     width: 100%;
     height: 80vh;
@@ -10,19 +12,33 @@ main div {
     align-self: center;
 }
 
+.dateandclock-container {
+    text-align: center;
+}
+
+
+#date {
+    color: rgb(232, 228, 228);
+}
+
+/* HEADER */
+
 header {
     padding: 20px;
 }
+
+/* LINKS */
 
 i {
     font-size: 27px;
 }
 
 
+/* BACKGROUND NEW TAB */
 body {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/background.png");
+    background-image: url("https://assets.goal.com/images/v3/bltc042d36e98b544eb/Lamine_Yamal.jpg");
      /* Customize the background by entering the url of the desired image 
      
      Example: 
@@ -35,16 +51,32 @@ body {
     background-position: center;
 }
 
-.dateandclock-container {
-    text-align: center;
-}
 
 
-#date {
-    color: rgb(232, 228, 228);
-}
 
-a {
-    color: white;
-}
 
+/* COLORS */
+
+/* Add a new color if you like
+
+Example:
+
+.class{color:color;}
+
+
+Preferably the class name should be the color you want to add.
+These styles will be used to change the color of the icons, only in the html add the name of the class to the attribute
+
+Example: 
+
+<a href="link" data-placement="bottom" data-tooltip="name" class="red"><i class="..."></i></a>
+
+*/
+
+.white{color:white;}
+.red{color:red;}
+.blue{color:blue;}
+
+
+/* This is a default colors by estefspace */
+/* WARNING: The color Black is not funtional */

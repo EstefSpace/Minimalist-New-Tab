@@ -16,6 +16,8 @@ Click on "Load unpackaged extension", then you will open the folder of the exten
 
 Now you have it installed!
 
-# New version released 2.0!
+# New version released 2.5!
 
-This new version only set the current time and day.
+Added some customization and documentation within the .html and .css (some styles were improved or replaced)
+
+Date-Clock in New-Tab! **(version 2.0)**
